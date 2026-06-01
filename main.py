@@ -178,7 +178,7 @@ async def predict(
         
         original_image_rgb = cv2.cvtColor(original_image, cv2.COLOR_BGR2RGB)
 
-        if model is None or metadata_df is None:
+        if model is None:
              raise HTTPException(status_code=500, detail="Modelo no cargado en el servidor")
 
         # ——— VALIDACIÓN DERMATOSCÓPICA ———
