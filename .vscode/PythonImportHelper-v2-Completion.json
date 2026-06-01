@@ -1,0 +1,561 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Form",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "tensorflow",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tensorflow",
+        "description": "tensorflow",
+        "detail": "tensorflow",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "load_model",
+        "importPath": "tensorflow.keras.models",
+        "description": "tensorflow.keras.models",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_image",
+        "importPath": "src.preprocesamiento",
+        "description": "src.preprocesamiento",
+        "isExtraImport": true,
+        "detail": "src.preprocesamiento",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_image_from_array",
+        "importPath": "src.preprocesamiento",
+        "description": "src.preprocesamiento",
+        "isExtraImport": true,
+        "detail": "src.preprocesamiento",
+        "documentation": {}
+    },
+    {
+        "label": "load_metadata",
+        "importPath": "src.extraccion_caracteristicas",
+        "description": "src.extraccion_caracteristicas",
+        "isExtraImport": true,
+        "detail": "src.extraccion_caracteristicas",
+        "documentation": {}
+    },
+    {
+        "label": "get_features_for_image",
+        "importPath": "src.extraccion_caracteristicas",
+        "description": "src.extraccion_caracteristicas",
+        "isExtraImport": true,
+        "detail": "src.extraccion_caracteristicas",
+        "documentation": {}
+    },
+    {
+        "label": "FEATURE_COLUMNS",
+        "importPath": "src.extraccion_caracteristicas",
+        "description": "src.extraccion_caracteristicas",
+        "isExtraImport": true,
+        "detail": "src.extraccion_caracteristicas",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "generate_grad_cam",
+        "importPath": "src.explicabilidad",
+        "description": "src.explicabilidad",
+        "isExtraImport": true,
+        "detail": "src.explicabilidad",
+        "documentation": {}
+    },
+    {
+        "label": "overlay_heatmap",
+        "importPath": "src.explicabilidad",
+        "description": "src.explicabilidad",
+        "isExtraImport": true,
+        "detail": "src.explicabilidad",
+        "documentation": {}
+    },
+    {
+        "label": "extract_features_from_image",
+        "importPath": "src.extraccion_auto",
+        "description": "src.extraccion_auto",
+        "isExtraImport": true,
+        "detail": "src.extraccion_auto",
+        "documentation": {}
+    },
+    {
+        "label": "validate_dermatoscopic_image",
+        "importPath": "src.extraccion_auto",
+        "description": "src.extraccion_auto",
+        "isExtraImport": true,
+        "detail": "src.extraccion_auto",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "auth",
+        "description": "auth",
+        "detail": "auth",
+        "documentation": {}
+    },
+    {
+        "label": "history",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "history",
+        "description": "history",
+        "detail": "history",
+        "documentation": {}
+    },
+    {
+        "label": "_sanitize",
+        "importPath": "history",
+        "description": "history",
+        "isExtraImport": true,
+        "detail": "history",
+        "documentation": {}
+    },
+    {
+        "label": "load_users",
+        "kind": 2,
+        "importPath": "auth",
+        "description": "auth",
+        "peekOfCode": "def load_users():\n    \"\"\"Carga los usuarios desde el archivo JSON.\"\"\"\n    if not os.path.exists(USERS_FILE):\n        return []\n    try:\n        with open(USERS_FILE, 'r', encoding='utf-8') as f:\n            data = json.load(f)\n            return data.get('users', [])\n    except Exception as e:\n        print(f\"Error cargando usuarios: {e}\")",
+        "detail": "auth",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "kind": 2,
+        "importPath": "auth",
+        "description": "auth",
+        "peekOfCode": "def authenticate(username, password):\n    \"\"\"\n    Verifica las credenciales del usuario.\n    Retorna el objeto usuario si es válido, None si no.\n    \"\"\"\n    users = load_users()\n    for user in users:\n        if user['username'] == username and user['password'] == password:\n            return user\n    return None",
+        "detail": "auth",
+        "documentation": {}
+    },
+    {
+        "label": "register_user",
+        "kind": 2,
+        "importPath": "auth",
+        "description": "auth",
+        "peekOfCode": "def register_user(username, password, name, role=\"doctor\"):\n    \"\"\"Registra un nuevo usuario en el sistema.\"\"\"\n    users = load_users()\n    # Verificar si el username ya existe\n    if any(u['username'] == username for u in users):\n        return False, \"El nombre de usuario ya existe\"\n    # Crear nuevo usuario\n    new_user = {\n        \"username\": username,\n        \"password\": password,",
+        "detail": "auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_by_username",
+        "kind": 2,
+        "importPath": "auth",
+        "description": "auth",
+        "peekOfCode": "def get_user_by_username(username):\n    \"\"\"Obtiene un usuario por su username.\"\"\"\n    users = load_users()\n    for user in users:\n        if user['username'] == username:\n            return user\n    return None",
+        "detail": "auth",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_DIR",
+        "kind": 5,
+        "importPath": "auth",
+        "description": "auth",
+        "peekOfCode": "DATA_DIR = os.path.join(os.path.dirname(__file__), 'data')\nUSERS_FILE = os.path.join(DATA_DIR, 'users.json')\ndef load_users():\n    \"\"\"Carga los usuarios desde el archivo JSON.\"\"\"\n    if not os.path.exists(USERS_FILE):\n        return []\n    try:\n        with open(USERS_FILE, 'r', encoding='utf-8') as f:\n            data = json.load(f)\n            return data.get('users', [])",
+        "detail": "auth",
+        "documentation": {}
+    },
+    {
+        "label": "USERS_FILE",
+        "kind": 5,
+        "importPath": "auth",
+        "description": "auth",
+        "peekOfCode": "USERS_FILE = os.path.join(DATA_DIR, 'users.json')\ndef load_users():\n    \"\"\"Carga los usuarios desde el archivo JSON.\"\"\"\n    if not os.path.exists(USERS_FILE):\n        return []\n    try:\n        with open(USERS_FILE, 'r', encoding='utf-8') as f:\n            data = json.load(f)\n            return data.get('users', [])\n    except Exception as e:",
+        "detail": "auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_history_file",
+        "kind": 2,
+        "importPath": "history",
+        "description": "history",
+        "peekOfCode": "def get_history_file(username):\n    \"\"\"Obtiene la ruta del archivo de historial para un usuario.\"\"\"\n    if not os.path.exists(HISTORY_DIR):\n        os.makedirs(HISTORY_DIR, exist_ok=True)\n    return os.path.join(HISTORY_DIR, f\"{username}_history.json\")\ndef load_history(username):\n    \"\"\"Carga el historial de un usuario.\"\"\"\n    filepath = get_history_file(username)\n    if not os.path.exists(filepath):\n        return []",
+        "detail": "history",
+        "documentation": {}
+    },
+    {
+        "label": "load_history",
+        "kind": 2,
+        "importPath": "history",
+        "description": "history",
+        "peekOfCode": "def load_history(username):\n    \"\"\"Carga el historial de un usuario.\"\"\"\n    filepath = get_history_file(username)\n    if not os.path.exists(filepath):\n        return []\n    try:\n        with open(filepath, 'r', encoding='utf-8') as f:\n            data = json.load(f)\n            return data.get('analyses', [])\n    except:",
+        "detail": "history",
+        "documentation": {}
+    },
+    {
+        "label": "save_history_file",
+        "kind": 2,
+        "importPath": "history",
+        "description": "history",
+        "peekOfCode": "def save_history_file(username, history):\n    \"\"\"Guarda el historial completo de un usuario, sanitizando NaN/Inf.\"\"\"\n    filepath = get_history_file(username)\n    try:\n        clean_history = _sanitize(history)\n        with open(filepath, 'w', encoding='utf-8') as f:\n            json.dump({\"analyses\": clean_history}, f, indent=2, ensure_ascii=False)\n        return True\n    except Exception as e:\n        print(f\"Error guardando historial: {e}\")",
+        "detail": "history",
+        "documentation": {}
+    },
+    {
+        "label": "save_analysis",
+        "kind": 2,
+        "importPath": "history",
+        "description": "history",
+        "peekOfCode": "def save_analysis(username, image_name, prediction, confidence, features):\n    \"\"\"Guarda un nuevo análisis en el historial.\"\"\"\n    history = load_history(username)\n    new_entry = {\n        \"id\": datetime.now().strftime(\"%Y%m%d%H%M%S%f\"),\n        \"timestamp\": datetime.now().strftime(\"%Y-%m-%d %H:%M:%S\"),\n        \"image_name\": image_name,\n        \"prediction\": prediction,\n        \"confidence\": float(confidence),\n        \"top_features\": features",
+        "detail": "history",
+        "documentation": {}
+    },
+    {
+        "label": "delete_analysis",
+        "kind": 2,
+        "importPath": "history",
+        "description": "history",
+        "peekOfCode": "def delete_analysis(username, analysis_id):\n    \"\"\"Elimina un análisis específico del historial.\"\"\"\n    history = load_history(username)\n    history = [entry for entry in history if entry.get('id') != analysis_id]\n    return save_history_file(username, history)\ndef clear_history(username):\n    \"\"\"Elimina todo el historial de un usuario.\"\"\"\n    return save_history_file(username, [])\ndef get_analysis_count(username):\n    \"\"\"Retorna el número total de análisis realizados por el usuario.\"\"\"",
+        "detail": "history",
+        "documentation": {}
+    },
+    {
+        "label": "clear_history",
+        "kind": 2,
+        "importPath": "history",
+        "description": "history",
+        "peekOfCode": "def clear_history(username):\n    \"\"\"Elimina todo el historial de un usuario.\"\"\"\n    return save_history_file(username, [])\ndef get_analysis_count(username):\n    \"\"\"Retorna el número total de análisis realizados por el usuario.\"\"\"\n    history = load_history(username)\n    return len(history)",
+        "detail": "history",
+        "documentation": {}
+    },
+    {
+        "label": "get_analysis_count",
+        "kind": 2,
+        "importPath": "history",
+        "description": "history",
+        "peekOfCode": "def get_analysis_count(username):\n    \"\"\"Retorna el número total de análisis realizados por el usuario.\"\"\"\n    history = load_history(username)\n    return len(history)",
+        "detail": "history",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_DIR",
+        "kind": 5,
+        "importPath": "history",
+        "description": "history",
+        "peekOfCode": "DATA_DIR = os.path.join(os.path.dirname(__file__), 'data')\nHISTORY_DIR = os.path.join(DATA_DIR, 'history')\ndef get_history_file(username):\n    \"\"\"Obtiene la ruta del archivo de historial para un usuario.\"\"\"\n    if not os.path.exists(HISTORY_DIR):\n        os.makedirs(HISTORY_DIR, exist_ok=True)\n    return os.path.join(HISTORY_DIR, f\"{username}_history.json\")\ndef load_history(username):\n    \"\"\"Carga el historial de un usuario.\"\"\"\n    filepath = get_history_file(username)",
+        "detail": "history",
+        "documentation": {}
+    },
+    {
+        "label": "HISTORY_DIR",
+        "kind": 5,
+        "importPath": "history",
+        "description": "history",
+        "peekOfCode": "HISTORY_DIR = os.path.join(DATA_DIR, 'history')\ndef get_history_file(username):\n    \"\"\"Obtiene la ruta del archivo de historial para un usuario.\"\"\"\n    if not os.path.exists(HISTORY_DIR):\n        os.makedirs(HISTORY_DIR, exist_ok=True)\n    return os.path.join(HISTORY_DIR, f\"{username}_history.json\")\ndef load_history(username):\n    \"\"\"Carga el historial de un usuario.\"\"\"\n    filepath = get_history_file(username)\n    if not os.path.exists(filepath):",
+        "detail": "history",
+        "documentation": {}
+    },
+    {
+        "label": "LoginRequest",
+        "kind": 6,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "class LoginRequest(BaseModel):\n    username: str\n    password: str\nclass RegisterRequest(BaseModel):\n    username: str\n    password: str\n    name: str\n# --- Carga del Modelo ---\nMODEL_PATH = os.path.join(os.path.dirname(__file__), 'model_final.keras')\nMETADATA_BALD = os.path.join(ROOT_DIR, 'data', 'BALD', 'metadata_completo.csv')",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterRequest",
+        "kind": 6,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "class RegisterRequest(BaseModel):\n    username: str\n    password: str\n    name: str\n# --- Carga del Modelo ---\nMODEL_PATH = os.path.join(os.path.dirname(__file__), 'model_final.keras')\nMETADATA_BALD = os.path.join(ROOT_DIR, 'data', 'BALD', 'metadata_completo.csv')\nMETADATA_AMD = os.path.join(ROOT_DIR, 'data', 'AMD', 'metadata_amd.csv')\nmodel = None\nmetadata_df = None",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "read_root",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def read_root():\n    return {\"message\": \"API PDA Activa\", \"status\": \"online\"}",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_DIR",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))\nif ROOT_DIR not in sys.path:\n    sys.path.append(ROOT_DIR)\n# Importar funciones del proyecto\nfrom tensorflow.keras.models import load_model\nfrom src.preprocesamiento import preprocess_image, preprocess_image_from_array\nfrom src.extraccion_caracteristicas import load_metadata, get_features_for_image, FEATURE_COLUMNS\nfrom sklearn.preprocessing import StandardScaler\nimport pandas as pd\nfrom src.explicabilidad import generate_grad_cam, overlay_heatmap",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = FastAPI(\n    title=\"API Avanzada de Detección de Melanoma Acral\",\n    description=\"Backend unificado para autenticación, historial y predicción.\",\n    version=\"1.0.0\"\n)\n# Configurar CORS para React\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  # En producción, especificar el dominio del frontend\n    allow_credentials=True,",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_PATH",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "MODEL_PATH = os.path.join(os.path.dirname(__file__), 'model_final.keras')\nMETADATA_BALD = os.path.join(ROOT_DIR, 'data', 'BALD', 'metadata_completo.csv')\nMETADATA_AMD = os.path.join(ROOT_DIR, 'data', 'AMD', 'metadata_amd.csv')\nmodel = None\nmetadata_df = None\nscaler = StandardScaler()\ntry:\n    if os.path.exists(MODEL_PATH):\n        model = load_model(MODEL_PATH)\n        print(f\"✅ Modelo cargado correctamente.\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "METADATA_BALD",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "METADATA_BALD = os.path.join(ROOT_DIR, 'data', 'BALD', 'metadata_completo.csv')\nMETADATA_AMD = os.path.join(ROOT_DIR, 'data', 'AMD', 'metadata_amd.csv')\nmodel = None\nmetadata_df = None\nscaler = StandardScaler()\ntry:\n    if os.path.exists(MODEL_PATH):\n        model = load_model(MODEL_PATH)\n        print(f\"✅ Modelo cargado correctamente.\")\n    # Cargar y combinar metadatos",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "METADATA_AMD",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "METADATA_AMD = os.path.join(ROOT_DIR, 'data', 'AMD', 'metadata_amd.csv')\nmodel = None\nmetadata_df = None\nscaler = StandardScaler()\ntry:\n    if os.path.exists(MODEL_PATH):\n        model = load_model(MODEL_PATH)\n        print(f\"✅ Modelo cargado correctamente.\")\n    # Cargar y combinar metadatos\n    df_bald = load_metadata(METADATA_BALD)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "model = None\nmetadata_df = None\nscaler = StandardScaler()\ntry:\n    if os.path.exists(MODEL_PATH):\n        model = load_model(MODEL_PATH)\n        print(f\"✅ Modelo cargado correctamente.\")\n    # Cargar y combinar metadatos\n    df_bald = load_metadata(METADATA_BALD)\n    df_amd = load_metadata(METADATA_AMD)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "metadata_df",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "metadata_df = None\nscaler = StandardScaler()\ntry:\n    if os.path.exists(MODEL_PATH):\n        model = load_model(MODEL_PATH)\n        print(f\"✅ Modelo cargado correctamente.\")\n    # Cargar y combinar metadatos\n    df_bald = load_metadata(METADATA_BALD)\n    df_amd = load_metadata(METADATA_AMD)\n    metadata_df = pd.concat([df_bald, df_amd], ignore_index=True)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "scaler",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "scaler = StandardScaler()\ntry:\n    if os.path.exists(MODEL_PATH):\n        model = load_model(MODEL_PATH)\n        print(f\"✅ Modelo cargado correctamente.\")\n    # Cargar y combinar metadatos\n    df_bald = load_metadata(METADATA_BALD)\n    df_amd = load_metadata(METADATA_AMD)\n    metadata_df = pd.concat([df_bald, df_amd], ignore_index=True)\n    # Ajustar scaler",
+        "detail": "main",
+        "documentation": {}
+    }
+]
