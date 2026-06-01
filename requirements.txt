@@ -2,7 +2,7 @@ fastapi
 uvicorn[standard]
 gunicorn
 tensorflow-cpu==2.16.2
-opencv-python
+opencv-python-headless
 scikit-learn
 pandas
 python-multipart

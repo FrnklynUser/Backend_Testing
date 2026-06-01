@@ -13,8 +13,8 @@ import tensorflow as tf
 import time
 import sys
 
-# Añadir el raíz del proyecto al path para importar desde src
-ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+# Directorio raíz del backend (donde está este archivo)
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 if ROOT_DIR not in sys.path:
     sys.path.append(ROOT_DIR)
 
@@ -59,29 +59,56 @@ class RegisterRequest(BaseModel):
 
 # --- Carga del Modelo ---
 MODEL_PATH = os.path.join(os.path.dirname(__file__), 'model_final.keras')
+# Buscar metadata en subdirectorio data/ del propio backend
 METADATA_BALD = os.path.join(ROOT_DIR, 'data', 'BALD', 'metadata_completo.csv')
-METADATA_AMD = os.path.join(ROOT_DIR, 'data', 'AMD', 'metadata_amd.csv')
+METADATA_AMD  = os.path.join(ROOT_DIR, 'data', 'AMD',  'metadata_amd.csv')
 
 model = None
 metadata_df = None
 scaler = StandardScaler()
 
+# --- Cargar modelo ---
 try:
     if os.path.exists(MODEL_PATH):
         model = load_model(MODEL_PATH)
-        print(f"✅ Modelo cargado correctamente.")
-    
-    # Cargar y combinar metadatos
-    df_bald = load_metadata(METADATA_BALD)
-    df_amd = load_metadata(METADATA_AMD)
-    metadata_df = pd.concat([df_bald, df_amd], ignore_index=True)
-    
-    # Ajustar scaler
-    features_data = metadata_df[FEATURE_COLUMNS].values
-    scaler.fit(features_data)
-    print("✅ Metadatos y Scaler configurados.")
+        print("✅ Modelo cargado correctamente.")
+    else:
+        print(f"⚠️  Modelo no encontrado en: {MODEL_PATH}")
 except Exception as e:
-    print(f"❌ Error en inicialización: {e}")
+    print(f"❌ Error al cargar el modelo: {e}")
+
+# --- Cargar metadata y ajustar scaler (opcional — fallback si no existen los CSVs) ---
+try:
+    dfs = []
+    if os.path.exists(METADATA_BALD):
+        dfs.append(load_metadata(METADATA_BALD))
+        print("✅ Metadata BALD cargada.")
+    else:
+        print(f"⚠️  Metadata BALD no encontrada: {METADATA_BALD}")
+
+    if os.path.exists(METADATA_AMD):
+        dfs.append(load_metadata(METADATA_AMD))
+        print("✅ Metadata AMD cargada.")
+    else:
+        print(f"⚠️  Metadata AMD no encontrada: {METADATA_AMD}")
+
+    if dfs:
+        metadata_df = pd.concat(dfs, ignore_index=True)
+        features_data = metadata_df[FEATURE_COLUMNS].values
+        scaler.fit(features_data)
+        print("✅ Metadatos y Scaler configurados desde CSV.")
+    else:
+        # Sin CSVs: ajustar scaler con valores sintéticos para que no falle
+        print("⚠️  Sin metadata CSV — usando scaler con valores por defecto (imágenes externas funcionarán, dataset interno no).")
+        dummy = np.zeros((2, len(FEATURE_COLUMNS)), dtype=np.float32)
+        dummy[1] = 1.0
+        scaler.fit(dummy)
+except Exception as e:
+    print(f"❌ Error al cargar metadata: {e}")
+    # Fallback de emergencia para el scaler
+    dummy = np.zeros((2, len(FEATURE_COLUMNS)), dtype=np.float32)
+    dummy[1] = 1.0
+    scaler.fit(dummy)
 
 # --- Endpoints de Autenticación ---
 

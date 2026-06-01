@@ -1,11 +1,29 @@
 [
     {
-        "label": "json",
+        "label": "tensorflow",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
+        "importPath": "tensorflow",
+        "description": "tensorflow",
+        "detail": "tensorflow",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
         "documentation": {}
     },
     {
@@ -15,6 +33,349 @@
         "importPath": "os",
         "description": "os",
         "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
+        "label": "StratifiedKFold",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "StratifiedKFold",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "FEATURE_COLUMNS",
+        "importPath": "src.extraccion_caracteristicas",
+        "description": "src.extraccion_caracteristicas",
+        "isExtraImport": true,
+        "detail": "src.extraccion_caracteristicas",
+        "documentation": {}
+    },
+    {
+        "label": "load_metadata",
+        "importPath": "src.extraccion_caracteristicas",
+        "description": "src.extraccion_caracteristicas",
+        "isExtraImport": true,
+        "detail": "src.extraccion_caracteristicas",
+        "documentation": {}
+    },
+    {
+        "label": "get_features_for_image",
+        "importPath": "src.extraccion_caracteristicas",
+        "description": "src.extraccion_caracteristicas",
+        "isExtraImport": true,
+        "detail": "src.extraccion_caracteristicas",
+        "documentation": {}
+    },
+    {
+        "label": "load_metadata",
+        "importPath": "src.extraccion_caracteristicas",
+        "description": "src.extraccion_caracteristicas",
+        "isExtraImport": true,
+        "detail": "src.extraccion_caracteristicas",
+        "documentation": {}
+    },
+    {
+        "label": "get_features_for_image",
+        "importPath": "src.extraccion_caracteristicas",
+        "description": "src.extraccion_caracteristicas",
+        "isExtraImport": true,
+        "detail": "src.extraccion_caracteristicas",
+        "documentation": {}
+    },
+    {
+        "label": "FEATURE_COLUMNS",
+        "importPath": "src.extraccion_caracteristicas",
+        "description": "src.extraccion_caracteristicas",
+        "isExtraImport": true,
+        "detail": "src.extraccion_caracteristicas",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "yaml",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "yaml",
+        "description": "yaml",
+        "detail": "yaml",
+        "documentation": {}
+    },
+    {
+        "label": "psutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "psutil",
+        "description": "psutil",
+        "detail": "psutil",
+        "documentation": {}
+    },
+    {
+        "label": "precision_recall_curve",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "classification_report",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "precision_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "recall_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "f1_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "roc_auc_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "compute_class_weight",
+        "importPath": "sklearn.utils.class_weight",
+        "description": "sklearn.utils.class_weight",
+        "isExtraImport": true,
+        "detail": "sklearn.utils.class_weight",
+        "documentation": {}
+    },
+    {
+        "label": "EarlyStopping",
+        "importPath": "tensorflow.keras.callbacks",
+        "description": "tensorflow.keras.callbacks",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "ModelCheckpoint",
+        "importPath": "tensorflow.keras.callbacks",
+        "description": "tensorflow.keras.callbacks",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "seaborn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "seaborn",
+        "description": "seaborn",
+        "detail": "seaborn",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "load_model",
+        "importPath": "tensorflow.keras.models",
+        "description": "tensorflow.keras.models",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "Model",
+        "importPath": "tensorflow.keras.models",
+        "description": "tensorflow.keras.models",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "load_model",
+        "importPath": "tensorflow.keras.models",
+        "description": "tensorflow.keras.models",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "load_images",
+        "importPath": "src.preprocesamiento",
+        "description": "src.preprocesamiento",
+        "isExtraImport": true,
+        "detail": "src.preprocesamiento",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_image",
+        "importPath": "src.preprocesamiento",
+        "description": "src.preprocesamiento",
+        "isExtraImport": true,
+        "detail": "src.preprocesamiento",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_image_from_array",
+        "importPath": "src.preprocesamiento",
+        "description": "src.preprocesamiento",
+        "isExtraImport": true,
+        "detail": "src.preprocesamiento",
+        "documentation": {}
+    },
+    {
+        "label": "EfficientNetB3",
+        "importPath": "tensorflow.keras.applications",
+        "description": "tensorflow.keras.applications",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.applications",
+        "documentation": {}
+    },
+    {
+        "label": "Input",
+        "importPath": "tensorflow.keras.layers",
+        "description": "tensorflow.keras.layers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Dense",
+        "importPath": "tensorflow.keras.layers",
+        "description": "tensorflow.keras.layers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "GlobalAveragePooling2D",
+        "importPath": "tensorflow.keras.layers",
+        "description": "tensorflow.keras.layers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Concatenate",
+        "importPath": "tensorflow.keras.layers",
+        "description": "tensorflow.keras.layers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Dropout",
+        "importPath": "tensorflow.keras.layers",
+        "description": "tensorflow.keras.layers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
         "documentation": {}
     },
     {
@@ -140,24 +501,6 @@
         "documentation": {}
     },
     {
-        "label": "numpy",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
-        "documentation": {}
-    },
-    {
-        "label": "cv2",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "cv2",
-        "description": "cv2",
-        "detail": "cv2",
-        "documentation": {}
-    },
-    {
         "label": "base64",
         "kind": 6,
         "isExtraImport": true,
@@ -172,15 +515,6 @@
         "description": "io",
         "isExtraImport": true,
         "detail": "io",
-        "documentation": {}
-    },
-    {
-        "label": "tensorflow",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "tensorflow",
-        "description": "tensorflow",
-        "detail": "tensorflow",
         "documentation": {}
     },
     {
@@ -199,71 +533,6 @@
         "importPath": "sys",
         "description": "sys",
         "detail": "sys",
-        "documentation": {}
-    },
-    {
-        "label": "load_model",
-        "importPath": "tensorflow.keras.models",
-        "description": "tensorflow.keras.models",
-        "isExtraImport": true,
-        "detail": "tensorflow.keras.models",
-        "documentation": {}
-    },
-    {
-        "label": "preprocess_image",
-        "importPath": "src.preprocesamiento",
-        "description": "src.preprocesamiento",
-        "isExtraImport": true,
-        "detail": "src.preprocesamiento",
-        "documentation": {}
-    },
-    {
-        "label": "preprocess_image_from_array",
-        "importPath": "src.preprocesamiento",
-        "description": "src.preprocesamiento",
-        "isExtraImport": true,
-        "detail": "src.preprocesamiento",
-        "documentation": {}
-    },
-    {
-        "label": "load_metadata",
-        "importPath": "src.extraccion_caracteristicas",
-        "description": "src.extraccion_caracteristicas",
-        "isExtraImport": true,
-        "detail": "src.extraccion_caracteristicas",
-        "documentation": {}
-    },
-    {
-        "label": "get_features_for_image",
-        "importPath": "src.extraccion_caracteristicas",
-        "description": "src.extraccion_caracteristicas",
-        "isExtraImport": true,
-        "detail": "src.extraccion_caracteristicas",
-        "documentation": {}
-    },
-    {
-        "label": "FEATURE_COLUMNS",
-        "importPath": "src.extraccion_caracteristicas",
-        "description": "src.extraccion_caracteristicas",
-        "isExtraImport": true,
-        "detail": "src.extraccion_caracteristicas",
-        "documentation": {}
-    },
-    {
-        "label": "StandardScaler",
-        "importPath": "sklearn.preprocessing",
-        "description": "sklearn.preprocessing",
-        "isExtraImport": true,
-        "detail": "sklearn.preprocessing",
-        "documentation": {}
-    },
-    {
-        "label": "pandas",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pandas",
-        "description": "pandas",
-        "detail": "pandas",
         "documentation": {}
     },
     {
@@ -322,6 +591,186 @@
         "description": "history",
         "isExtraImport": true,
         "detail": "history",
+        "documentation": {}
+    },
+    {
+        "label": "DataAugmentor",
+        "kind": 6,
+        "importPath": "src.aumento_datos",
+        "description": "src.aumento_datos",
+        "peekOfCode": "class DataAugmentor:\n    \"\"\"\n    Clase para realizar aumento de datos en imágenes médicas.\n    \"\"\"\n    def __init__(self, config=None):\n        \"\"\"\n        Inicializa el aumentador de datos.\n        Args:\n            config (dict): Configuración de aumento de datos.\n        \"\"\"",
+        "detail": "src.aumento_datos",
+        "documentation": {}
+    },
+    {
+        "label": "UnifiedDataLoader",
+        "kind": 6,
+        "importPath": "src.carga_datos_unificada",
+        "description": "src.carga_datos_unificada",
+        "peekOfCode": "class UnifiedDataLoader:\n    \"\"\"\n    Cargador de datos unificado que puede manejar múltiples conjuntos de datos,\n    incluyendo conjuntos de datos con y sin etiquetas.\n    \"\"\"\n    def __init__(self, datasets_config):\n        \"\"\"\n        Inicializa el cargador de datos unificado.\n        Args:\n            datasets_config (dict): Configuración de los conjuntos de datos.",
+        "detail": "src.carga_datos_unificada",
+        "documentation": {}
+    },
+    {
+        "label": "create_stratified_folds",
+        "kind": 2,
+        "importPath": "src.carga_datos_unificada",
+        "description": "src.carga_datos_unificada",
+        "peekOfCode": "def create_stratified_folds(df, n_splits=5, random_state=42):\n    \"\"\"\n    Crea folds estratificados para validación cruzada.\n    Args:\n        df (pd.DataFrame): DataFrame con datos etiquetados.\n        n_splits (int): Número de divisiones para validación cruzada.\n        random_state (int): Semilla para reproducibilidad.\n    Returns:\n        list: Lista de tuplas (train_idx, val_idx) para cada fold.\n    \"\"\"",
+        "detail": "src.carga_datos_unificada",
+        "documentation": {}
+    },
+    {
+        "label": "get_memory_usage",
+        "kind": 2,
+        "importPath": "src.entrenamiento_mejorado",
+        "description": "src.entrenamiento_mejorado",
+        "peekOfCode": "def get_memory_usage():\n    \"\"\"Retorna el uso de RAM en MB.\"\"\"\n    process = psutil.Process(os.getpid())\n    return process.memory_info().rss / 1024 / 1024\ndef load_unlabeled_features(unlabeled_image_paths, target_size=(300, 300)):\n    \"\"\"\n    Carga características para imágenes no etiquetadas (usando valores promedio como placeholder).\n    Args:\n        unlabeled_image_paths (list): Lista de rutas de imágenes no etiquetadas.\n        target_size (tuple): Tamaño objetivo para las imágenes.",
+        "detail": "src.entrenamiento_mejorado",
+        "documentation": {}
+    },
+    {
+        "label": "load_unlabeled_features",
+        "kind": 2,
+        "importPath": "src.entrenamiento_mejorado",
+        "description": "src.entrenamiento_mejorado",
+        "peekOfCode": "def load_unlabeled_features(unlabeled_image_paths, target_size=(300, 300)):\n    \"\"\"\n    Carga características para imágenes no etiquetadas (usando valores promedio como placeholder).\n    Args:\n        unlabeled_image_paths (list): Lista de rutas de imágenes no etiquetadas.\n        target_size (tuple): Tamaño objetivo para las imágenes.\n    Returns:\n        tuple: (imagenes_preprocesadas, caracteristicas_dummy)\n    \"\"\"\n    # Cargar imágenes",
+        "detail": "src.entrenamiento_mejorado",
+        "documentation": {}
+    },
+    {
+        "label": "train_enhanced",
+        "kind": 2,
+        "importPath": "src.entrenamiento_mejorado",
+        "description": "src.entrenamiento_mejorado",
+        "peekOfCode": "def train_enhanced(config):\n    \"\"\"Función principal para el entrenamiento mejorado del modelo con múltiples datasets.\"\"\"\n    print(f\"Cargando configuración desde: {config}\")\n    with open(config, 'r') as f:\n        cfg = yaml.safe_load(f)\n    print(f\"\\n{'='*60}\")\n    print(f\"ENTRENAMIENTO MEJORADO CON DATASETS MÚLTIPLES\")\n    print(f\"{'='*60}\")\n    print(f\"RAM inicial: {get_memory_usage():.2f} MB\\n\")\n    # 1. Configurar y cargar datasets múltiples",
+        "detail": "src.entrenamiento_mejorado",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "src.entrenamiento_mejorado",
+        "description": "src.entrenamiento_mejorado",
+        "peekOfCode": "def main(config_path=None):\n    \"\"\"Entry point compatible con CLI y llamadas directas desde notebooks.\n    - Si `config_path` es proporcionado (string), se usa directamente.\n    - Si `config_path` es None, se parsean argumentos de línea de comandos (CLI).\n    \"\"\"\n    if config_path is not None:\n        # Llamada programática desde notebook u otro módulo\n        train_enhanced(config_path)\n        return\n    # Compatibilidad con ejecución desde línea de comandos",
+        "detail": "src.entrenamiento_mejorado",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate",
+        "kind": 2,
+        "importPath": "src.evaluacion",
+        "description": "src.evaluacion",
+        "peekOfCode": "def evaluate(config):\n    \"\"\"Evalúa el rendimiento de los modelos entrenados.\"\"\"\n    print(f\"Cargando configuración desde: {config}\")\n    with open(config, 'r') as f:\n        cfg = yaml.safe_load(f)\n    # 1. Cargar metadatos\n    print(\"Cargando metadatos...\")\n    metadata_path = cfg['dataset']['path']\n    metadata_df = load_metadata(metadata_path)\n    # 2. Crear una partición balanceada para prueba",
+        "detail": "src.evaluacion",
+        "documentation": {}
+    },
+    {
+        "label": "generate_grad_cam",
+        "kind": 2,
+        "importPath": "src.explicabilidad",
+        "description": "src.explicabilidad",
+        "peekOfCode": "def generate_grad_cam(model, image, class_index, layer_name):\n    \"\"\"\n    Genera un mapa de calor Grad-CAM para una imagen dada.\n    Para modelos híbridos complejos, usa una aproximación simplificada.\n    \"\"\"\n    # Para modelos híbridos (lista de entradas), crear un heatmap simple centrado\n    if isinstance(image, list) and len(image) == 2:\n        print(\"INFO: Usando aproximación simplificada de Grad-CAM para modelo híbrido\")\n        # Crear un mapa de calor que resalte el centro (donde suele estar la lesión)\n        size = 10  # Tamaño del mapa de características",
+        "detail": "src.explicabilidad",
+        "documentation": {}
+    },
+    {
+        "label": "overlay_heatmap",
+        "kind": 2,
+        "importPath": "src.explicabilidad",
+        "description": "src.explicabilidad",
+        "peekOfCode": "def overlay_heatmap(original_image, heatmap, alpha=0.4):\n    \"\"\"Superpone un mapa de calor sobre la imagen original.\"\"\"\n    heatmap = cv2.resize(heatmap, (original_image.shape[1], original_image.shape[0]))\n    heatmap = np.uint8(255 * heatmap)\n    heatmap = cv2.applyColorMap(heatmap, cv2.COLORMAP_JET)\n    superimposed_img = heatmap * alpha + original_image * (1 - alpha)\n    superimposed_img = np.clip(superimposed_img, 0, 255).astype(np.uint8)\n    return superimposed_img\nif __name__ == '__main__':\n    # Este bloque es solo para demostración y no se ejecutará sin un modelo y una imagen.",
+        "detail": "src.explicabilidad",
+        "documentation": {}
+    },
+    {
+        "label": "validate_dermatoscopic_image",
+        "kind": 2,
+        "importPath": "src.extraccion_auto",
+        "description": "src.extraccion_auto",
+        "peekOfCode": "def validate_dermatoscopic_image(\n    img_bgr: np.ndarray,\n    threshold: float = 0.45\n) -> dict:\n    \"\"\"\n    Valida si una imagen es dermatoscópica antes de ejecutar la inferencia.\n    Evalúa 5 criterios heurísticos y calcula un score global ponderado [0, 1]:\n      - Ratio de área de la lesión segmentada  (peso: 0.25)\n      - Compacidad del contorno                (peso: 0.25)\n      - Tonos de piel en el fondo              (peso: 0.20)",
+        "detail": "src.extraccion_auto",
+        "documentation": {}
+    },
+    {
+        "label": "extract_features_from_image",
+        "kind": 2,
+        "importPath": "src.extraccion_auto",
+        "description": "src.extraccion_auto",
+        "peekOfCode": "def extract_features_from_image(img_bgr: np.ndarray) -> np.ndarray:\n    \"\"\"\n    Extrae automáticamente las 25 características clínicas desde la imagen.\n    Args:\n        img_bgr: Array de imagen en formato BGR (como lo devuelve cv2.imdecode).\n    Returns:\n        np.ndarray de shape (1, 25) con las características normalizadas [0, 1]\n        o en el rango esperado por FEATURE_COLUMNS:\n        ['asymmetry_score', 'border_irregularity', 'color_variation', 'diameter',\n         'contrast', 'energy', 'homogeneity', 'correlation',",
+        "detail": "src.extraccion_auto",
+        "documentation": {}
+    },
+    {
+        "label": "load_metadata",
+        "kind": 2,
+        "importPath": "src.extraccion_caracteristicas",
+        "description": "src.extraccion_caracteristicas",
+        "peekOfCode": "def load_metadata(csv_path):\n    \"\"\"\n    Carga el archivo de metadatos.\n    Args:\n        csv_path (str): Ruta al archivo CSV.\n    Returns:\n        pd.DataFrame: DataFrame con los datos.\n    \"\"\"\n    df = pd.read_csv(csv_path, index_col=False)\n    # Asegurarse de que la columna 'label' sea de tipo entero",
+        "detail": "src.extraccion_caracteristicas",
+        "documentation": {}
+    },
+    {
+        "label": "get_features_for_image",
+        "kind": 2,
+        "importPath": "src.extraccion_caracteristicas",
+        "description": "src.extraccion_caracteristicas",
+        "peekOfCode": "def get_features_for_image(metadata_df, image_id):\n    \"\"\"\n    Obtiene el vector de características para una imagen específica.\n    Args:\n        metadata_df (pd.DataFrame): DataFrame con todos los metadatos.\n        image_id (str): ID único de la imagen (nombre del archivo sin extensión).\n    Returns:\n        np.ndarray: Vector de características (shape: [1, num_features]).\n    \"\"\"\n    # Convertir image_id a cadena si es necesario",
+        "detail": "src.extraccion_caracteristicas",
+        "documentation": {}
+    },
+    {
+        "label": "FEATURE_COLUMNS",
+        "kind": 5,
+        "importPath": "src.extraccion_caracteristicas",
+        "description": "src.extraccion_caracteristicas",
+        "peekOfCode": "FEATURE_COLUMNS = [\n    'asymmetry_score', 'border_irregularity', 'color_variation', 'diameter',\n    'contrast', 'energy', 'homogeneity', 'correlation',\n    'eccentricity', 'compactness', 'area_ratio',\n    'age', 'gender', 'family_history', 'sun_exposure',\n    'texture_roughness', 'lesion_shape', 'color_uniformity',\n    'edge_sharpness', 'surface_smoothness', 'pattern_symmetry',\n    'vascularity', 'pigment_network', 'streaks', 'regression_structures'\n]\ndef load_metadata(csv_path):",
+        "detail": "src.extraccion_caracteristicas",
+        "documentation": {}
+    },
+    {
+        "label": "create_hybrid_model",
+        "kind": 2,
+        "importPath": "src.modelos",
+        "description": "src.modelos",
+        "peekOfCode": "def create_hybrid_model(image_shape=(300, 300, 3), num_features=25):\n    \"\"\"\n    Crea un modelo híbrido que combina una CNN (EfficientNet-B3) para imágenes\n    y una MLP para características clínicas.\n    \"\"\"\n    # --- Rama CNN para la imagen ---\n    base_cnn = EfficientNetB3(\n        weights='imagenet',\n        include_top=False,\n        input_shape=image_shape",
+        "detail": "src.modelos",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_image",
+        "kind": 2,
+        "importPath": "src.preprocesamiento",
+        "description": "src.preprocesamiento",
+        "peekOfCode": "def preprocess_image(image_path, target_size=(300, 300)):\n    \"\"\"\n    Carga y preprocesa una imagen para el modelo.\n    Args:\n        image_path (str): Ruta a la imagen.\n        target_size (tuple): Tamaño objetivo (ancho, alto).\n    Returns:\n        np.ndarray: Imagen preprocesada con forma (1, altura, ancho, 3).\n    \"\"\"\n    # Cargar imagen",
+        "detail": "src.preprocesamiento",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_image_from_array",
+        "kind": 2,
+        "importPath": "src.preprocesamiento",
+        "description": "src.preprocesamiento",
+        "peekOfCode": "def preprocess_image_from_array(image_array, target_size=(300, 300)):\n    \"\"\"\n    Preprocesa una imagen desde un array numpy para el modelo.\n    Args:\n        image_array (np.ndarray): Array de la imagen en formato BGR.\n        target_size (tuple): Tamaño objetivo (ancho, alto).\n    Returns:\n        np.ndarray: Imagen preprocesada con forma (1, altura, ancho, 3).\n    \"\"\"\n    # Trabajar con una copia de la imagen",
+        "detail": "src.preprocesamiento",
+        "documentation": {}
+    },
+    {
+        "label": "find_image_path",
+        "kind": 2,
+        "importPath": "src.preprocesamiento",
+        "description": "src.preprocesamiento",
+        "peekOfCode": "def find_image_path(image_id, image_dir):\n    \"\"\"\n    Busca la ruta de una imagen por su ID en el directorio especificado.\n    Args:\n        image_id (str): ID de la imagen.\n        image_dir (str): Directorio donde buscar la imagen.\n    Returns:\n        str: Ruta completa a la imagen.\n    Raises:\n        FileNotFoundError: Si no se encuentra la imagen.",
+        "detail": "src.preprocesamiento",
+        "documentation": {}
+    },
+    {
+        "label": "load_images",
+        "kind": 2,
+        "importPath": "src.preprocesamiento",
+        "description": "src.preprocesamiento",
+        "peekOfCode": "def load_images(image_ids, image_dir, target_size=(300, 300)):\n    \"\"\"\n    Carga y preprocesa múltiples imágenes.\n    Args:\n        image_ids (list): Lista de IDs de imágenes.\n        image_dir (str): Directorio donde se encuentran las imágenes.\n        target_size (tuple): Tamaño objetivo (ancho, alto).\n    Returns:\n        np.ndarray: Array de imágenes preprocesadas con forma (N, altura, ancho, 3).\n    \"\"\"",
+        "detail": "src.preprocesamiento",
         "documentation": {}
     },
     {
@@ -464,7 +913,7 @@
         "kind": 6,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "class LoginRequest(BaseModel):\n    username: str\n    password: str\nclass RegisterRequest(BaseModel):\n    username: str\n    password: str\n    name: str\n# --- Carga del Modelo ---\nMODEL_PATH = os.path.join(os.path.dirname(__file__), 'model_final.keras')\nMETADATA_BALD = os.path.join(ROOT_DIR, 'data', 'BALD', 'metadata_completo.csv')",
+        "peekOfCode": "class LoginRequest(BaseModel):\n    username: str\n    password: str\nclass RegisterRequest(BaseModel):\n    username: str\n    password: str\n    name: str\n# --- Carga del Modelo ---\nMODEL_PATH = os.path.join(os.path.dirname(__file__), 'model_final.keras')\n# Buscar metadata en subdirectorio data/ del propio backend",
         "detail": "main",
         "documentation": {}
     },
@@ -473,7 +922,7 @@
         "kind": 6,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "class RegisterRequest(BaseModel):\n    username: str\n    password: str\n    name: str\n# --- Carga del Modelo ---\nMODEL_PATH = os.path.join(os.path.dirname(__file__), 'model_final.keras')\nMETADATA_BALD = os.path.join(ROOT_DIR, 'data', 'BALD', 'metadata_completo.csv')\nMETADATA_AMD = os.path.join(ROOT_DIR, 'data', 'AMD', 'metadata_amd.csv')\nmodel = None\nmetadata_df = None",
+        "peekOfCode": "class RegisterRequest(BaseModel):\n    username: str\n    password: str\n    name: str\n# --- Carga del Modelo ---\nMODEL_PATH = os.path.join(os.path.dirname(__file__), 'model_final.keras')\n# Buscar metadata en subdirectorio data/ del propio backend\nMETADATA_BALD = os.path.join(ROOT_DIR, 'data', 'BALD', 'metadata_completo.csv')\nMETADATA_AMD  = os.path.join(ROOT_DIR, 'data', 'AMD',  'metadata_amd.csv')\nmodel = None",
         "detail": "main",
         "documentation": {}
     },
@@ -491,7 +940,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))\nif ROOT_DIR not in sys.path:\n    sys.path.append(ROOT_DIR)\n# Importar funciones del proyecto\nfrom tensorflow.keras.models import load_model\nfrom src.preprocesamiento import preprocess_image, preprocess_image_from_array\nfrom src.extraccion_caracteristicas import load_metadata, get_features_for_image, FEATURE_COLUMNS\nfrom sklearn.preprocessing import StandardScaler\nimport pandas as pd\nfrom src.explicabilidad import generate_grad_cam, overlay_heatmap",
+        "peekOfCode": "ROOT_DIR = os.path.dirname(os.path.abspath(__file__))\nif ROOT_DIR not in sys.path:\n    sys.path.append(ROOT_DIR)\n# Importar funciones del proyecto\nfrom tensorflow.keras.models import load_model\nfrom src.preprocesamiento import preprocess_image, preprocess_image_from_array\nfrom src.extraccion_caracteristicas import load_metadata, get_features_for_image, FEATURE_COLUMNS\nfrom sklearn.preprocessing import StandardScaler\nimport pandas as pd\nfrom src.explicabilidad import generate_grad_cam, overlay_heatmap",
         "detail": "main",
         "documentation": {}
     },
@@ -509,7 +958,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "MODEL_PATH = os.path.join(os.path.dirname(__file__), 'model_final.keras')\nMETADATA_BALD = os.path.join(ROOT_DIR, 'data', 'BALD', 'metadata_completo.csv')\nMETADATA_AMD = os.path.join(ROOT_DIR, 'data', 'AMD', 'metadata_amd.csv')\nmodel = None\nmetadata_df = None\nscaler = StandardScaler()\ntry:\n    if os.path.exists(MODEL_PATH):\n        model = load_model(MODEL_PATH)\n        print(f\"✅ Modelo cargado correctamente.\")",
+        "peekOfCode": "MODEL_PATH = os.path.join(os.path.dirname(__file__), 'model_final.keras')\n# Buscar metadata en subdirectorio data/ del propio backend\nMETADATA_BALD = os.path.join(ROOT_DIR, 'data', 'BALD', 'metadata_completo.csv')\nMETADATA_AMD  = os.path.join(ROOT_DIR, 'data', 'AMD',  'metadata_amd.csv')\nmodel = None\nmetadata_df = None\nscaler = StandardScaler()\n# --- Cargar modelo ---\ntry:\n    if os.path.exists(MODEL_PATH):",
         "detail": "main",
         "documentation": {}
     },
@@ -518,16 +967,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "METADATA_BALD = os.path.join(ROOT_DIR, 'data', 'BALD', 'metadata_completo.csv')\nMETADATA_AMD = os.path.join(ROOT_DIR, 'data', 'AMD', 'metadata_amd.csv')\nmodel = None\nmetadata_df = None\nscaler = StandardScaler()\ntry:\n    if os.path.exists(MODEL_PATH):\n        model = load_model(MODEL_PATH)\n        print(f\"✅ Modelo cargado correctamente.\")\n    # Cargar y combinar metadatos",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "METADATA_AMD",
-        "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "METADATA_AMD = os.path.join(ROOT_DIR, 'data', 'AMD', 'metadata_amd.csv')\nmodel = None\nmetadata_df = None\nscaler = StandardScaler()\ntry:\n    if os.path.exists(MODEL_PATH):\n        model = load_model(MODEL_PATH)\n        print(f\"✅ Modelo cargado correctamente.\")\n    # Cargar y combinar metadatos\n    df_bald = load_metadata(METADATA_BALD)",
+        "peekOfCode": "METADATA_BALD = os.path.join(ROOT_DIR, 'data', 'BALD', 'metadata_completo.csv')\nMETADATA_AMD  = os.path.join(ROOT_DIR, 'data', 'AMD',  'metadata_amd.csv')\nmodel = None\nmetadata_df = None\nscaler = StandardScaler()\n# --- Cargar modelo ---\ntry:\n    if os.path.exists(MODEL_PATH):\n        model = load_model(MODEL_PATH)\n        print(\"✅ Modelo cargado correctamente.\")",
         "detail": "main",
         "documentation": {}
     },
@@ -536,7 +976,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "model = None\nmetadata_df = None\nscaler = StandardScaler()\ntry:\n    if os.path.exists(MODEL_PATH):\n        model = load_model(MODEL_PATH)\n        print(f\"✅ Modelo cargado correctamente.\")\n    # Cargar y combinar metadatos\n    df_bald = load_metadata(METADATA_BALD)\n    df_amd = load_metadata(METADATA_AMD)",
+        "peekOfCode": "model = None\nmetadata_df = None\nscaler = StandardScaler()\n# --- Cargar modelo ---\ntry:\n    if os.path.exists(MODEL_PATH):\n        model = load_model(MODEL_PATH)\n        print(\"✅ Modelo cargado correctamente.\")\n    else:\n        print(f\"⚠️  Modelo no encontrado en: {MODEL_PATH}\")",
         "detail": "main",
         "documentation": {}
     },
@@ -545,7 +985,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "metadata_df = None\nscaler = StandardScaler()\ntry:\n    if os.path.exists(MODEL_PATH):\n        model = load_model(MODEL_PATH)\n        print(f\"✅ Modelo cargado correctamente.\")\n    # Cargar y combinar metadatos\n    df_bald = load_metadata(METADATA_BALD)\n    df_amd = load_metadata(METADATA_AMD)\n    metadata_df = pd.concat([df_bald, df_amd], ignore_index=True)",
+        "peekOfCode": "metadata_df = None\nscaler = StandardScaler()\n# --- Cargar modelo ---\ntry:\n    if os.path.exists(MODEL_PATH):\n        model = load_model(MODEL_PATH)\n        print(\"✅ Modelo cargado correctamente.\")\n    else:\n        print(f\"⚠️  Modelo no encontrado en: {MODEL_PATH}\")\nexcept Exception as e:",
         "detail": "main",
         "documentation": {}
     },
@@ -554,7 +994,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "scaler = StandardScaler()\ntry:\n    if os.path.exists(MODEL_PATH):\n        model = load_model(MODEL_PATH)\n        print(f\"✅ Modelo cargado correctamente.\")\n    # Cargar y combinar metadatos\n    df_bald = load_metadata(METADATA_BALD)\n    df_amd = load_metadata(METADATA_AMD)\n    metadata_df = pd.concat([df_bald, df_amd], ignore_index=True)\n    # Ajustar scaler",
+        "peekOfCode": "scaler = StandardScaler()\n# --- Cargar modelo ---\ntry:\n    if os.path.exists(MODEL_PATH):\n        model = load_model(MODEL_PATH)\n        print(\"✅ Modelo cargado correctamente.\")\n    else:\n        print(f\"⚠️  Modelo no encontrado en: {MODEL_PATH}\")\nexcept Exception as e:\n    print(f\"❌ Error al cargar el modelo: {e}\")",
         "detail": "main",
         "documentation": {}
     }
