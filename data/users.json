@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "username": "rortiz",
+      "password": "ABCD456",
+      "name": "Dr. Franklin Ortiz",
+      "role": "doctor"
+    },
+    {
+      "username": "JFranklin",
+      "password": "serenazgo123",
+      "name": "Jhon Franklin Ramos Ortiz",
+      "role": "doctor"
+    }
+  ]
+}
